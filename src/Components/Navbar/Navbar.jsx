@@ -19,28 +19,29 @@ const Navbar = () => {
 
         <ul className={`navbar-list ${menuOpen ? "active" : ""}`}>
           <li>
-            <Link to="" onClick={() => setMenuOpen(false)}>
+            <Link to="/" onClick={() => setMenuOpen(false)}>
               HOME
             </Link>
           </li>
           <li>
-            <Link to="" onClick={() => setMenuOpen(false)}>
+            <Link to="/shop" onClick={() => setMenuOpen(false)}>
               SHOP
             </Link>
           </li>
           <li>
-            <Link to="" onClick={() => setMenuOpen(false)}>
+            <Link to="/about" onClick={() => setMenuOpen(false)}>
               ABOUT
             </Link>
           </li>
           <li>
-            <Link to="" onClick={() => setMenuOpen(false)}>
+            <Link to="/our-partners" onClick={() => setMenuOpen(false)}>
               OUR PARTNERS
             </Link>
           </li>
-          <li><Link>CONTACT</Link></li>
+          <li>
+            <Link to="/contact">CONTACT</Link>
+          </li>
         </ul>
-        
       </nav>
 
       <div className="hero-content">
