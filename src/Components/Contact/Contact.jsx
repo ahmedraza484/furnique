@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <section className="contact">
       <form>
         <h1>Contact Us.</h1>
         <input type="text" placeholder="Your First Name" required />
@@ -12,7 +12,7 @@ const Contact = () => {
         <textarea placeholder="Type Your Message Here....." required></textarea>
         <input type="submit" value={"SEND"} id="contact-btn"/>
       </form>
-    </div>
+    </section>
   );
 };
 

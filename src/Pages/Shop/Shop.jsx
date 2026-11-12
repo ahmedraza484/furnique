@@ -31,7 +31,7 @@ const products = [
 
 const Shop = () => {
   return (
-    <div className="shop-container">
+    <section className="shop-container">
       <h2>Featured Products</h2>
 
       <div className="box">
@@ -59,7 +59,7 @@ const Shop = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -7,7 +7,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="container">
+    <section className="container">
       <nav className="navbar">
         <div className="logo">
           <img src={logo} alt="logo" width="200" />
@@ -34,8 +34,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/our-partners" onClick={() => setMenuOpen(false)}>
-              OUR PARTNERS
+            <Link to="/why-choose-us" onClick={() => setMenuOpen(false)}>
+              WHY CHOOSE US
             </Link>
           </li>
           <li>
@@ -61,7 +61,7 @@ const Navbar = () => {
           <button className="btn">Shop Now</button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

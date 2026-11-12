@@ -1,5 +1,5 @@
 import About from "../Components/About/About";
-import OurPartners from "../Components/OurPartners/OurPartners";
+import WhyChooseUs from "../Components/WhyChooseUs/WhyChooseUs";
 import Contact from "../Components/Contact/Contact";
 import Shop from "../Pages/Shop/Shop";
 
@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <Shop />
       <About />
-      <OurPartners />
+      <WhyChooseUs />
       <Contact />
     </>
   );
